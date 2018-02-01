@@ -12,6 +12,10 @@ public class TileRegister {
 
 	private List<Tile> tileList;
 	
+	/**
+	 * Returns all Tiles in the List
+	 * @return tileList
+	 */
 	public List<Tile> getAll()
 	{
 		return tileList;
