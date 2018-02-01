@@ -1,10 +1,22 @@
 package main;
 
+import control.TileRegister;
+
 public class Main {
 
+	public TileRegister tileRegister;
+	
 	public static void main(String[] args) {
+
 		
-		System.out.println("Warumähh");
 	}
+	
+	
+	public void init()
+	{
+		this.tileRegister = new TileRegister();
+	}
+	
+	
 
 }
