@@ -27,9 +27,9 @@ public class Cell extends Tile {
 	}
 
 	public void setValue(int value) {
-		if(value <= 0 || value >9)
+		if(value <= 0 || value >5)
 		{
-			throw new IllegalArgumentException("Value must be between 1 and 9");
+			throw new IllegalArgumentException("Value must be between 0 and 5");
 		}
 		this.value = value;
 	}
