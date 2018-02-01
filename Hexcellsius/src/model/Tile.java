@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Tile {
+public class Tile {
 /**
  * Abstract Version of a Hexcell
  */
